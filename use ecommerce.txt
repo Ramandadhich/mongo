@@ -1,0 +1,55 @@
+use ecommerce
+
+db.products.insertMany([
+  {
+    product_id: 101,
+    product_name: "Wireless Headphones",
+    category: "Electronics",
+    price: 2499,
+    stock: 50,
+    brand: "Boat",
+    rating: 4.5
+  },
+  {
+    product_id: 102,
+    product_name: "Smart Watch",
+    category: "Electronics",
+    price: 3999,
+    stock: 30,
+    brand: "Noise",
+    rating: 4.3
+  },
+  {
+    product_id: 104,
+    product_name: "Laptop Backpack",
+    category: "Bags",
+    price: 1499,
+    stock: 75,
+    brand: "American Tourister",
+    rating: 4.4
+  },
+  {
+    product_id: 105,
+    product_name: "Mechanical Keyboard",
+    category: "Computer Accessories",
+    price: 3499,
+    stock: 25,
+    brand: "Redragon",
+    rating: 4.7
+  }
+])
+
+
+
+{
+name:"Jayesh Dadhich";
+age : 21;
+email:dadhichr056@gmail.com
+phone 9119240433
+skills:["c","network scannining ,pentestor,nmap ","python"]
+}
+address{
+city:jaipur;
+pincode:302022
+state:rajasthan
+}}
